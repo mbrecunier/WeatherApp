@@ -1,7 +1,20 @@
 package com.example.guest.weatherapp.ui;
 
-/**
- * Created by Guest on 4/28/16.
- */
-public class ForecastActivity {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.guest.weatherapp.R;
+
+public class ForecastActivity extends AppCompatActivity {
+    public static final String TAG = ForecastActivity.class.getSimpleName();
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_forecast);
+
+
+    }
+
 }
