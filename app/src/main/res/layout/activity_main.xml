@@ -35,8 +35,7 @@
         android:id="@+id/locationEditText"
         android:background="@color/colorTextIcons"
         android:padding="10dp"
-        android:inputType="number"
-        android:hint="Enter Zip Code"
+        android:hint="Enter City Name"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="25sp" />
