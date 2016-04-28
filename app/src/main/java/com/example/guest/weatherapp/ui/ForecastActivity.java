@@ -23,9 +23,10 @@ import okhttp3.Response;
 
 public class ForecastActivity extends AppCompatActivity {
     public static final String TAG = ForecastActivity.class.getSimpleName();
-    public ArrayList<Weather> mForecast = new ArrayList<>();
     @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
     private ForecastListAdapter mAdapter;
+
+    public ArrayList<Weather> mForecast = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

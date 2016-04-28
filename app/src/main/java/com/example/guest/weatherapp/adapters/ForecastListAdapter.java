@@ -47,8 +47,7 @@ public class ForecastListAdapter extends RecyclerView.Adapter<ForecastListAdapte
     }
 
     public class ForecastViewHolder extends RecyclerView.ViewHolder {
-        @Bind(R.id.weatherImageView)
-        ImageView mWeatherImageView;
+        @Bind(R.id.weatherImageView) ImageView mWeatherImageView;
         @Bind(R.id.dateTextView) TextView mDateView;
         @Bind(R.id.descriptionTextView) TextView mDescriptionView;
         @Bind(R.id.maxTextView) TextView mMaxTextView;
