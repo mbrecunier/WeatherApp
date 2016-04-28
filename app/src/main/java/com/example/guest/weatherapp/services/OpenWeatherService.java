@@ -25,7 +25,7 @@ import okhttp3.Response;
  */
 public class OpenWeatherService {
 
-    public static void getWeather(String location, Callback callback) {
+    public static void getForecast(String location, Callback callback) {
         String OPEN_WEATHER_KEY = Constants.OPEN_WEATHER_KEY;
         OkHttpClient client = new OkHttpClient.Builder()
                 .build();
